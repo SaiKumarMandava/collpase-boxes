@@ -1,0 +1,268 @@
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 90px 0px 0px 0px;
+   /* height: 100vh; */
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    /* height: 100vh; */
+ }
+.childContainer{
+   
+}
+.heading{
+    width:343px;
+    height: 24px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+img{
+    width: 100px;
+    /* margin: 16px 0px 0px 0px; */
+}
+input[type="radio"]{
+    width: 14.46px;
+    height: 14.46px;
+    padding: 20px;
+  
+
+}
+/* input[type="radio" i]:checked{
+    color: #FF6B82 !important;
+    border: 2px solid #FF6B82;
+    appearance: auto;
+   
+
+  
+} */
+
+.inside{
+    display: flex;
+    padding: 15px 0px 0px 0px;
+    /* padding: 20px 0px 0px 0pxx; */
+}
+.divoffer{
+    display: flex;
+}
+
+.heading p{
+    color:#FF6B82;
+    size: 20px;
+    font-weight: 600;
+    font-family: inter;
+    /* margin: 0px 0px 3px 0px; */
+}
+.leftDiv span{
+    font-family: inter;
+    font-size: 14.46px;
+    font-weight: 500;
+
+}
+.leftDiv .strike{
+    font-family: inter;
+   font-weight: 400;
+     font-size: 10px;
+     color: #000000;
+    text-decoration: line-through;
+}
+
+#outerDiv{
+    border: 1px solid gray;
+    width: 341px;
+   cursor: pointer;
+
+}
+#innerDiv{
+    display: none;
+   cursor: pointer;
+
+    
+}
+#outerDiv1{
+    border: 1px solid gray;
+    width: 341px;
+   cursor: pointer;
+   padding: 3px 0px 0px 0px;
+   
+
+}
+.outerDivOffer{
+    position: relative;
+}
+.offredDiv1{
+    position: absolute;
+    bottom: 60px;
+    left: 215px;
+    width: 119px;
+    height: 26px;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF6B82;
+    font-family: inter;
+    font-size: 12px;
+    font-weight: 700;
+    /* padding: 2px; */
+}
+#innerDiv1{
+    display: none;
+   cursor: pointer;
+
+    
+}
+#outerDiv2{
+    border: 1px solid gray;
+    width: 341px;
+   cursor: pointer;
+   padding: 3px 0px 20px 0px;
+
+
+}
+#innerDiv2{
+    display: none;
+   cursor: pointer;
+
+    
+}
+.divSed{
+    display: flex;
+    position: relative;
+
+    /* justify-content: space-around; */
+}
+.divSed span{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.divSed p{
+    font-family: inter;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 400;
+
+}
+
+.offer{
+    background-color: #FF6B82;
+    width: 55px;
+    height: 17px;
+    font-family: inter;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin: 3px 0px 0px 60px;
+    position: absolute;
+
+}
+.offer1{
+    background-color: #FF6B82;
+    width: 55px;
+    height: 17px;
+    font-family: inter;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 65px;
+    position: absolute;
+
+}
+.selectDiv{
+    display: flex;
+    
+}
+select{
+    width: 65.98px;
+    height: 25.39px;
+    margin: 0px 0px 0px 0px;
+    font-family: inter;
+    font-size: 10.8px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+.dropDownDiv{
+    display: flex;
+    gap: 10px;
+    padding: 0px 0px 0px 20px;
+}
+.dropDownDiv p{
+    font-family: inter;
+    font-size: 9.04px;
+    font-weight: 400;
+    columns: #000000;
+}
+.colorDiv span{
+   font-family: inter;
+   font-size: 9.94px;
+   font-weight: 400;
+       
+}
+.sizeDiv span{
+    font-family: inter;
+    font-size: 9.94px;
+    font-weight: 400;
+        
+ }
+ .outerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 0px 0px 0px;
+ }
+ .descritDiv{
+    /* border: 1px solid black; */
+    width: 341px;
+    display: flex;
+    justify-content: space-between;
+    margin:16px 0px 0px 0px; 
+ }
+ .descrit1{
+    font-family: inter;
+    color: #FF6B82;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ .descrit2{
+    font-family: inter;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+
+ }
+ .addButton{
+    width: 341px;
+    display: flex;
+    height: 40px;
+    margin:20px 0px 0px 0px; 
+    border: #FFFFFF;
+    background-color: #FF6B82;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+
+ }
+
+
+ input[type=radio]:checked ~ .check {
+    border: 5px solid #0DFF92;
+  }
+  
+  input[type=radio]:checked ~ .check::before{
+    accent-color: #0DFF92;
+  }

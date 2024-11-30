@@ -1,0 +1,380 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="container">
+        <div class="childContainer">
+          <div class="heading">
+            <img src="./Line 19.svg" />
+            <p>YAY! It’s BOGO</p>
+            <img src="./Line 19.svg" />
+          </div>
+          <div class="outerContainer">
+            <div class="outer" id="outerDiv" onclick="toggleInnerDiv()">
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 6px 0px 0px 15px;
+                "
+              >
+                <div class="inside">
+                  <div class="divoffer">
+                    <div style="margin: 6px 0px 0px 0px">
+                      <input type="radio" />
+                    
+                   
+                    </div>
+                    <div class="divSed">
+                      <div style="margin: 3px 0px 0px 5px">
+                        <span style="position: relative">1 Unit</span>
+                        <p style="margin: 0px 0px 20px 0px">Standard Price</p>
+                      </div>
+                      <div class="offer">10% Off</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="leftDiv"
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      padding: 15px 20px 0px 0px;
+                    "
+                  >
+                    <span>$10.00 USD</span>
+                    <span class="strike">$24.00 USD </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="inner"
+                id="innerDiv"
+                onclick="stopPropagation(event)"
+              >
+                <div class="dropDownDiv">
+                  <div class="sizeDiv">
+                    <div class="selectDiv">
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          gap: 20px;
+                          padding: 25px 0px 0px 0px;
+                        "
+                      >
+                        <p style="margin: 0px 0px 0px 10px">#1</p>
+                        <p style="margin: 0px 0px 0px 10px">#2</p>
+                      </div>
+                      <div style="margin: 0px 0px 0px 5px">
+                        <span>Size</span>
+                        <div
+                          style="
+                            display: flex;
+                            flex-direction: column;
+                            gap: 7px;
+                            margin: 5px 0px 20px 0px;
+                          "
+                        >
+                          <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="Xl">Xl</option>
+                          </select>
+                          <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="Xl">Xl</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="colorDiv">
+                    <div>
+                      <span>Color</span>
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          gap: 7px;
+                          margin: 5px 0px 20px 0px;
+                        "
+                      >
+                        <select>
+                          <option value="Black">Black</option>
+                          <option value="Blue">Blue</option>
+                          <option value="Red">Red</option>
+                        </select>
+                        <select>
+                          <option value="Color">Color</option>
+                          <option value="Black">Black</option>
+                          <option value="Red">Red</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------>
+
+            <div class="outerDivOffer">
+              <div class="outer" id="outerDiv1" onclick="toggleInnerDiv1()">
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 6px 0px 0px 20px;
+                  "
+                >
+                  <div class="inside">
+                    <div class="divoffer">
+                      <div style="margin: 2px 0px 0px 0px">
+                        <input
+                          type="radio"
+                          id="innerRadio1"
+                          style="margin: 0px 0px 0px 0px"
+                        />
+                      </div>
+                      <div class="divSed">
+                        <div style="margin: 0px 0px 35px 5px">
+                          <span
+                            style="position: relative"
+                            style="margin: 0px 0px 0px 0px"
+                            >2 Unit</span
+                          >
+                          <!-- <p style="margin: 0px 0px 20px 0px">Standard Price</p> -->
+                        </div>
+                        <div class="offer1">20% Off</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="leftDiv"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        padding: 15px 20px 0px 0px;
+                      "
+                    >
+                      <span>$18.00 USD</span>
+                      <span class="strike">$24.00 USD </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="inner"
+                  id="innerDiv1"
+                  onclick="stopPropagation(event)"
+                >
+                  <div class="dropDownDiv">
+                    <div class="sizeDiv">
+                      <div class="selectDiv">
+                        <div
+                          style="
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            padding: 25px 0px 0px 0px;
+                          "
+                        >
+                          <p style="margin: 0px 0px 0px 10px">#1</p>
+                          <p style="margin: 0px 0px 0px 10px">#2</p>
+                        </div>
+                        <div style="margin: 0px 0px 0px 5px">
+                          <span>Size</span>
+                          <div
+                            style="
+                              display: flex;
+                              flex-direction: column;
+                              gap: 7px;
+                              margin: 5px 0px 20px 0px;
+                            "
+                          >
+                            <select>
+                              <option value="S">S</option>
+                              <option value="M">M</option>
+                              <option value="Xl">Xl</option>
+                            </select>
+                            <select>
+                              <option value="S">S</option>
+                              <option value="M">M</option>
+                              <option value="Xl">Xl</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="colorDiv">
+                      <div>
+                        <span>Color</span>
+                        <div
+                          style="
+                            display: flex;
+                            flex-direction: column;
+                            gap: 7px;
+                            margin: 5px 0px 20px 0px;
+                          "
+                        >
+                          <select>
+                            <option value="Black">Black</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Red">Red</option>
+                          </select>
+                          <select>
+                            <option value="Color">Color</option>
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="offredDiv1" id="offredDiv1">
+                <p style="margin: 4px 0px 0px 0px">MOST POPULAR</p>
+              </div>
+            </div>
+
+            <!----->
+            <div class="outer" id="outerDiv2" onclick="toggleInnerDiv2()">
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 6px 0px 0px 20px;
+                "
+              >
+                <div class="inside">
+                  <div class="divoffer">
+                    <div style="margin: 2px 0px 0px 0px">
+                      <input type="radio" id="innerRadio2" />
+                    </div>
+
+                    <div class="divSed">
+                      <div style="margin: 3px 0px 0px 5px">
+                        <span style="position: relative">3 Unit</span>
+                        <!-- <p style="margin: 0px 0px 20px 0px">Standard Price</p> -->
+                      </div>
+                      <div class="offer">30% Off</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="leftDiv"
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      padding: 15px 20px 0px 0px;
+                    "
+                  >
+                    <span>$24.00 USD</span>
+                    <span class="strike">$24.00 USD </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="inner"
+                id="innerDiv2"
+                onclick="stopPropagation(event)"
+              >
+                <div class="dropDownDiv">
+                  <div class="sizeDiv">
+                    <div class="selectDiv">
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          gap: 20px;
+                          padding: 25px 0px 0px 0px;
+                        "
+                      >
+                        <p style="margin: 0px 0px 0px 10px">#1</p>
+                        <p style="margin: 0px 0px 0px 10px">#2</p>
+                      </div>
+                      <div style="margin: 0px 0px 0px 5px">
+                        <span>Size</span>
+                        <div
+                          style="
+                            display: flex;
+                            flex-direction: column;
+                            gap: 7px;
+                            margin: 5px 0px 20px 0px;
+                          "
+                        >
+                          <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="Xl">Xl</option>
+                          </select>
+                          <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="Xl">Xl</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="colorDiv">
+                    <div>
+                      <span>Color</span>
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          gap: 7px;
+                          margin: 5px 0px 20px 0px;
+                        "
+                      >
+                        <select>
+                          <option value="Black">Black</option>
+                          <option value="Blue">Blue</option>
+                          <option value="Red">Red</option>
+                        </select>
+                        <select>
+                          <option value="Color">Color</option>
+                          <option value="Black">Black</option>
+                          <option value="Red">Red</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="descritDiv">
+        <div class="descrit1">Free Delivery</div>
+        <div class="descrit2">Total : $18.00 USD</div>
+      </div>
+
+      <button class="addButton">
+        <p style="font-size: 20px; margin: 0px 5px 3px 0px">&#43;</p>
+        Add to Cart
+      </button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
